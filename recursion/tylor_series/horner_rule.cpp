@@ -1,5 +1,4 @@
 
-
 #include <iostream>
 using namespace std;
 double honer_rule(int x,int n){
@@ -13,6 +12,6 @@ double honer_rule(int x,int n){
   }
 }
 int main(){
-  honer_rule(5,15);
-  return 0;
-}                                               )
+  double a=honer_rule(2,10);
+  cout<<a<<"\n";
+}                                               
